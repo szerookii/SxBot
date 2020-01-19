@@ -1,0 +1,62 @@
+#wave-container {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background: #E5E5E5;
+}
+
+#wave {
+  display: block;
+  position: relative;
+  height: 40px;
+  background: hsl(0, 0%, 21%);
+}
+
+#wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #E5E5E5;
+  right: -25%;
+  top: 20px
+}
+
+#wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: hsl(0, 0%, 21%);
+  left: -25%;
+  top: -240px;
+}
+
+.has-image-centered {
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.card {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+}
+
+.content {
+		width: 90%;
+}
+
+..videoWrapper {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+}
+.videoWrapper iframe {
+	width: 90%;
+	height: 100%;
+}
